@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Model Results</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
+    <h1>Model Performance Results</h1>
+    
+    <h2>Model Evaluation Metrics</h2>
+    <table>
+        <tr>
+            <th>Model</th>
+            <th>Accuracy</th>
+            <th>Precision</th>
+            <th>Recall</th>
+            <th>F1-Score</th>
+            <th>ROC-AUC</th>
+        </tr>
+        <tr>
+            <td>Logistic Regression</td>
+            <td>0.5246</td>
+            <td>0.5246</td>
+            <td>0.5246</td>
+            <td>0.5246</td>
+            <td>0.5246</td>
+        </tr>
+        <tr>
+            <td>Decision Tree</td>
+            <td>0.4754</td>
+            <td>0.4754</td>
+            <td>0.4754</td>
+            <td>0.4754</td>
+            <td>0.4754</td>
+        </tr>
+        <tr>
+            <td>Random Forest</td>
+            <td>0.5082</td>
+            <td>0.5082</td>
+            <td>0.5082</td>
+            <td>0.5082</td>
+            <td>0.5082</td>
+        </tr>
+        <tr>
+            <td>KNN</td>
+            <td>0.5574</td>
+            <td>0.5574</td>
+            <td>0.5574</td>
+            <td>0.5574</td>
+            <td>0.5574</td>
+        </tr>
+        <tr>
+            <td>SVM</td>
+            <td>0.4918</td>
+            <td>0.4918</td>
+            <td>0.4918</td>
+            <td>0.4918</td>
+            <td>0.4918</td>
+        </tr>
+    </table>
+
+    <h2>Analysis</h2>
+    <p>The KNN model performed the best with an accuracy of 55.74%, while the Decision Tree model had the lowest accuracy of 47.54%.</p>
+    
+    <h2>Next Steps</h2>
+    <ul>
+        <li>Try hyperparameter tuning to improve model performance</li>
+        <li>Consider feature engineering to create more meaningful features</li>
+        <li>Try different algorithms or ensemble methods</li>
+    </ul>
+</body>
+</html>
